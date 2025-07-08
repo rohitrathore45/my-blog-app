@@ -1,6 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
+// blog card
+
 const BlogCard = ({blog}) => {
 
     const{title, description, category, image, _id} = blog;
