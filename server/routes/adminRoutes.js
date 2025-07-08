@@ -4,6 +4,8 @@ import auth from "../middleware/auth.js"
 
 const adminRouter = express.Router();
 
+// admin route
+
 adminRouter.post("/login", adminLogin);
 adminRouter.get("/comments", auth, getAllComments);
 adminRouter.get("/blogs", auth, getAllBlogsAdmin);
